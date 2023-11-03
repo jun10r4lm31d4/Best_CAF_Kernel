@@ -12,13 +12,6 @@ jobs:
        - name: Checkout
          uses: actions/checkout@master
 
-       - name: Initializing environment
-         run: |
-            git config --global user.name "jun10r4lm31d4"
-            git config --global user.email "jun10r4lm31d4@outlook.com"
-            sudo -E apt-get -qq update
-            sudo -E apt-get -qq install bc build-essential zip curl libstdc++6 git wget python gcc clang libssl-dev repo rsync flex curl bison aria2
-
        - name: Sync kernel source
          run: |
              chmod 777 config.sh
