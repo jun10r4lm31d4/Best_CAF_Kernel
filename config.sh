@@ -1,4 +1,4 @@
-KERNEL_SOURCE=https://github.com/RahulPalXDA/kernel_samsung_j2y18lte.git
-BRANCH=stock
-KERNEL_VERSION=msm-3.18
-PLATFORM=*-89xx.0
+KERNEL_SOURCE=https://github.com/engstk/op8.git
+BRANCH=blu_spark-11
+KERNEL_VERSION=msm-4.19
+PLATFORM=*-SMxx50.0
